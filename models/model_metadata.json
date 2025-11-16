@@ -1,0 +1,89 @@
+{
+    "model_info": {
+        "revenue_forecasting": {
+            "prophet": {
+                "mae": 981.2370422709708,
+                "rmse": 1218.1822770598378,
+                "r2": 0.9127449401626678
+            },
+            "xgboost": {
+                "mae": 4626.773455148437,
+                "rmse": 5798.114554311338,
+                "r2": 0.98343
+            },
+            "random_forest": {
+                "mae": 4667.259330426465,
+                "rmse": 5845.419135458423,
+                "r2": 0.989845
+            },
+            "ensemble": {
+                "mae": 977.714546804819,
+                "rmse": 1217.143520732711,
+                "r2": 0.9128936832592502
+            }
+        },
+        "cashflow_prediction": {
+            "xgboost": {
+                "mae": 153.18831299133302,
+                "rmse": 202.552668752192,
+                "r2": 0.9981548348648727
+            },
+            "liquidity_classifier": {
+                "accuracy": 0.9625
+            }
+        }
+    },
+    "feature_columns": [
+        "Number of Enrollments",
+        "Total Marketing Spend",
+        "Marketing Spend (Google)",
+        "Marketing Spend (LinkedIn)",
+        "Marketing Spend (Campus)",
+        "Marketing Spend (Events)",
+        "Operational Costs",
+        "Retention Rates",
+        "Total Conversions",
+        "Total Leads",
+        "Conversion Rate",
+        "Fixed Costs",
+        "Variable Costs",
+        "Month",
+        "Quarter",
+        "DayOfWeek",
+        "Seasonal_Encoded",
+        "Payment_Encoded",
+        "Revenue_Lag1",
+        "Revenue_Lag7",
+        "Revenue_Lag30",
+        "Enrollments_Lag1",
+        "Enrollments_Lag7",
+        "Revenue_MA7",
+        "Revenue_MA30",
+        "Enrollments_MA7",
+        "Marketing Efficiency",
+        "Enrollment Rate"
+    ],
+    "cashflow_features": [
+        "Revenue",
+        "Total Costs",
+        "Operational Costs",
+        "Fixed Costs",
+        "Variable Costs",
+        "Liabilities",
+        "Total Marketing Spend",
+        "Number of Enrollments",
+        "Retention Rates",
+        "Payment_Encoded",
+        "Month",
+        "Quarter",
+        "Profit",
+        "Revenue_MA7",
+        "Revenue_MA30"
+    ],
+    "training_date": "2025-10-18 03:20:18.239992",
+    "data_range": {
+        "start": "2019-01-01 00:00:00",
+        "end": "2024-06-22 00:00:00",
+        "total_records": 2000
+    }
+}

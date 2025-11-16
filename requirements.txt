@@ -1,0 +1,27 @@
+# Core Data & ML
+pandas==1.5.3
+numpy==1.26.0
+scikit-learn==1.7.2
+xgboost==3.0.5
+statsmodels==0.14.5
+
+# Visualization
+matplotlib==3.8.4
+seaborn==0.13.2
+plotly==6.3.1
+
+# Streamlit Dashboard
+streamlit==1.50.0
+
+# AI/LLM
+langchain==0.1.20
+langchain-groq==0.1.5
+groq==0.32.0
+
+# PDF Generation
+fpdf==1.7.2
+
+# Utils
+python-dotenv==1.0.0
+joblib==1.5.2
+tqdm==4.67.1
